@@ -1,0 +1,29 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;   
+}
+
+.main_visual{
+    height: 800px;
+    background-color: rgb(198, 255, 255);
+}
+
+.section_01{
+    height: 800px;
+    background-color: antiquewhite;
+}
+
+.section_02{
+    height: 800px;
+    background-color: rgb(132, 132, 132);
+}
+

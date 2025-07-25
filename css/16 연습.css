@@ -1,0 +1,68 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.section .inner{
+    width: 1440px;
+    margin: 160px auto;
+    background-color: aqua;
+
+}
+
+.section .inner .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.section .inner h2{
+    font: 30px;
+    margin-bottom: 40px;
+
+}
+
+
+.section .inner .list .item{
+    width: 321px;
+    position: relative;
+    overflow: hidden;
+    /* 엄마 사이즈 기준으로 튀어나온 자식들 정리 */
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+
+.section .inner .list .item p{
+    width: 100%;
+    position: absolute;
+    left: 0; 
+    bottom: 0;
+    color: aliceblue;
+    padding: 20px; 
+    font-size: 24px;
+    font-weight: bold; 
+    background: #2a7b9b;
+    background: linear-gradient(173deg,rgba(42, 123, 155, 1) 0%, rgba(67, 165, 143, 1) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%)
+    
+    
+}
+
+.section .inner .list .item img{
+    width: 100%;
+    height: 321px;
+    display: block;
+    border-radius: 20px;
+}
